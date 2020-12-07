@@ -26,7 +26,10 @@
         <div>
           <form action="#">
             <textarea name="message" id="" cols="20" rows="3" placeholder="Type your question here.."></textarea>
-            <div><input type="submit" value="Send"></div>
+            <div>
+              <input type="hidden" name="question" id="email" value="" />
+              <button type="submit" onclick="myAlert()">Send</button>
+            </div>
           </form>
         </div>
       </div>
@@ -43,5 +46,6 @@
         <p>Obviousley it's the most beautiful instrument in the world. It's played by the best of the best musicians in the world and only a true Master like Leon K.... </p>
     </div>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
