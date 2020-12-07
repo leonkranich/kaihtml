@@ -80,7 +80,7 @@ a:hover {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  height: 140px;
+  height: 104px;
   border-radius: 5px;
   margin-top: 5px;
   padding-left: 5px;
@@ -92,6 +92,21 @@ a:hover {
   align-items: flex-end;
   position: relative;
 }
+
+.btn-flat {
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+  background:  #00867d;
+  transition: background 0.3s ease;
+  font-size: 12px;
+}
+
+.btn-flat:hover {
+  background: #82e9de;
+  color: white;
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
